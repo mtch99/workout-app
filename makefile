@@ -1,4 +1,4 @@
-create-screen :
+create_screen :
 	mkdir ./src/screens/$(SCREEN_NAME)
 	touch ./src/screens/$(SCREEN_NAME)/$(SCREEN_NAME)Screen.tsx
 	touch ./src/screens/$(SCREEN_NAME)/styles.ts
