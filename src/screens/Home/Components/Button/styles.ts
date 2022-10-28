@@ -2,20 +2,18 @@ import {StyleSheet} from "react-native"
 
 const styles = StyleSheet.create({
     container: {
-        flex: 1,
-        width: '100%',
+        width: 120,
+        height: 120,
         backgroundColor: 'transparent',
-        // justifyContent: 'center',
+        borderWidth: 5,
+        borderColor: 'blue',
         alignItems: 'center',
-    },
-
-    headerContainer: {
-
-    },
-
-    buttonsContainer: {
-        flexGrow: 1,
         justifyContent: 'center',
+        marginVertical: 25
+    },
+
+    label: {
+        
     }
 })
 
